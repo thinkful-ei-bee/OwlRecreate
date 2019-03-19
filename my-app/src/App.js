@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import participants from './ParticipantsData';
 import ParticipantList from './ParticipantList';
-import OnStage from './onStage'
+import chatEvents from './ChatEvents';
+import ChatList from './ChatList';
+import OnStage from './onStage';
 import './App.css';
 
 class App extends Component {
@@ -15,6 +17,8 @@ class App extends Component {
           <ParticipantList participantsData = {participants}/>
 
            <OnStage participantsData = {participants}/>
+          
+          <ChatList chatMessages ={chatEvents}/>
    
         
       </div>
