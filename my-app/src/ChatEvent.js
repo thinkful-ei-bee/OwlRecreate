@@ -6,7 +6,9 @@ function ChatEvent(props){
     <div className='chat-event'>
     {
       props.eventData.type==='message'?
-      <div className='message-event'>{props.name} {props.eventData.type}</div>:
+      <div className='message-event'>
+      <img alt = {props.name}src={props.avatar}></img>
+      {props.name} {props.eventData.type}</div>:
       props.eventData.type==='thumb-up'?
       <div className='thumb-up'>{props.name} {props.eventData.type}</div>:
       props.eventData.type==='thumb-down'?

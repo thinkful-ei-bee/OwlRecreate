@@ -24,6 +24,7 @@ function Chat(props){
              return <ChatEvent eventData={event}
                     name = {participantName.name}
                     key = {'chat-'+index}
+                    avatar={participantName.avatar}
               />
             }
             )
