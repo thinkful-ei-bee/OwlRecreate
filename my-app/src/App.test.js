@@ -6,7 +6,7 @@ import ParticipantList from './ParticipantList';
 import renderer from 'react-test-renderer';
 import Chat from './Chat';
 import chatEvents from './ChatData'
-
+import ChatEvent from './ChatEvent'
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
@@ -28,26 +28,13 @@ it('participantList renders the UI as expected',()=>{
   expect(tree).toMatchSnapshot();
 });
 
-/*if(chat===true){
-  it('renders the UI as expected',()=>{
-    const tree = renderer.create(<ChatEvent eventData={event}
-      name = {participantName.name}
-      key = {'chat-'+index}
-      avatar={participantName.avatar}
-/>
-    ).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-}
-if(chat===false){
-  it('renders the UI as expected',()=>{
-    const tree = renderer.create(<Participant key = {participant.id}
-      name = {participant.name}
-      avatar = {participant.avatar}
-      inSession = {participant.inSession}
-      onStage ={participant.onStage}
-     /> ).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-}*/
-
+//chatEvent
+it('chatEvent renders the UI as expected',()=>{
+  const tree = renderer.create(<ChatEvent eventData={{
+    participantId: 4,
+    type: 'thumbs-down',
+    timestamp: 1548852484247
+}} name = {'Frank Runciman'} avatar={'https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1'}/>)
+.toJSON();
+expect(tree).toMatchSnapshot();
+})

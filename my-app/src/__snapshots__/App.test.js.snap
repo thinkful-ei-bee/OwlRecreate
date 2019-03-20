@@ -108,6 +108,20 @@ exports[`chat renders the UI as expected 1`] = `
 </div>
 `;
 
+exports[`chatEvent renders the UI as expected 1`] = `
+<div
+  className="chat-event"
+>
+  <div
+    className="leave-stage"
+  >
+    Frank Runciman
+     
+    thumbs-down
+  </div>
+</div>
+`;
+
 exports[`participantList renders the UI as expected 1`] = `
 <div
   className="participants-list"
