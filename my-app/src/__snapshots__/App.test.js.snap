@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div>
+  <div
+    className="chat-event"
+  >
+    <div
+      className="message-event"
+    >
+      <img
+        alt="Ashla Attwool"
+        src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+      />
+      Ashla Attwool
+       
+      message
+    </div>
+  </div>
+  <div
+    className="chat-event"
+  >
+    <div
+      className="leave-stage"
+    >
+      Caty Flucker
+       
+      thumbs-up
+    </div>
+  </div>
+  <div
+    className="chat-event"
+  >
+    <div
+      className="leave-stage"
+    >
+      Frank Runciman
+       
+      thumbs-down
+    </div>
+  </div>
+  <div
+    className="chat-event"
+  >
+    <div
+      className="leave-stage"
+    >
+      Koren Templeton
+       
+      raise-hand
+    </div>
+  </div>
+  <div
+    className="chat-event"
+  >
+    <div
+      className="clap"
+    >
+      Koren Templeton
+       
+      clap
+    </div>
+  </div>
+  <div
+    className="chat-event"
+  >
+    <div
+      className="join"
+    >
+      Koren Templeton
+       
+      join
+    </div>
+  </div>
+  <div
+    className="chat-event"
+  >
+    <div
+      className="leave"
+    >
+      Axe Kubicka
+       
+      leave
+    </div>
+  </div>
+  <div
+    className="chat-event"
+  >
+    <div
+      className="join-stage"
+    >
+      Ashla Attwool
+       
+      join-stage
+    </div>
+  </div>
+  <div
+    className="chat-event"
+  >
+    <div
+      className="leave-stage"
+    >
+      Ashla Attwool
+       
+      leave-stage
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders the UI as expected 2`] = `
+<div
+  className="participants-list"
+>
+  <div
+    className="session-participant"
+  >
+    <img
+      alt="Koren Templetonavatar"
+      className="user-avatar"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+    <div
+      className="participant-info"
+    >
+      <h6
+        className="name"
+      >
+         
+        Koren Templeton
+         
+      </h6>
+      <div
+        className="participant-status participant-status__green"
+      >
+        on stage 
+      </div>
+    </div>
+  </div>
+  <div
+    className="session-participant"
+  >
+    <img
+      alt="Caty Fluckeravatar"
+      className="user-avatar"
+      src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+    />
+    <div
+      className="participant-info"
+    >
+      <h6
+        className="name"
+      >
+         
+        Caty Flucker
+         
+      </h6>
+      <div
+        className="participant-status participant-status__green"
+      >
+        on stage 
+      </div>
+    </div>
+  </div>
+  <div
+    className="session-participant"
+  >
+    <img
+      alt="Ashla Attwoolavatar"
+      className="user-avatar"
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+    />
+    <div
+      className="participant-info"
+    >
+      <h6
+        className="name"
+      >
+         
+        Ashla Attwool
+         
+      </h6>
+      <div
+        className="participant-status participant-status__green"
+      >
+        on stage 
+      </div>
+    </div>
+  </div>
+  <div
+    className="session-participant"
+  >
+    <img
+      alt="Frank Runcimanavatar"
+      className="user-avatar"
+      src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+    />
+    <div
+      className="participant-info"
+    >
+      <h6
+        className="name"
+      >
+         
+        Frank Runciman
+         
+      </h6>
+      <div
+        className="participant-status participant-status__green"
+      >
+        in session
+      </div>
+    </div>
+  </div>
+  <div
+    className="session-participant"
+  >
+    <img
+      alt="Axe Kubickaavatar"
+      className="user-avatar"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+    <div
+      className="participant-info"
+    >
+      <h6
+        className="name"
+      >
+         
+        Axe Kubicka
+         
+      </h6>
+      <div
+        className="participant-status participant-status__gray"
+      >
+        left session
+      </div>
+    </div>
+  </div>
+</div>
+`;
