@@ -122,6 +122,34 @@ exports[`chatEvent renders the UI as expected 1`] = `
 </div>
 `;
 
+exports[`participant renders the UI as expected 1`] = `
+<div
+  className="session-participant"
+>
+  <img
+    alt="Koren Templetonavatar"
+    className="user-avatar"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+  <div
+    className="participant-info"
+  >
+    <h6
+      className="name"
+    >
+       
+      Koren Templeton
+       
+    </h6>
+    <div
+      className="participant-status participant-status__green"
+    >
+      on stage 
+    </div>
+  </div>
+</div>
+`;
+
 exports[`participantList renders the UI as expected 1`] = `
 <div
   className="participants-list"
