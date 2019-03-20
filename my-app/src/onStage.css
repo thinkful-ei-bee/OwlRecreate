@@ -1,0 +1,31 @@
+.onstage-container{
+  display:flex;
+  flex-direction: row-reverse;
+  height:100vh;
+  
+  justify-content: space-around;
+  flex-grow: 1;
+  background:gray;
+  
+}
+
+.other-user{
+  
+
+}
+.on-stage-contact-avatar{
+  height: 150px;
+  width:150px;
+}
+
+.contact-on-stage-details-current{
+  position: absolute;
+  bottom:0px;
+  right:30%;
+}
+
+.contact-on-stage-details-other{
+  display:flex;
+  height:150px;
+  background:darkgray;
+}

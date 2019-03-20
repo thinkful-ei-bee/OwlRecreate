@@ -5,7 +5,8 @@ const participants = [
         avatar:
             'https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1',
         inSession: true,
-        onStage: true
+        onStage: true,
+        currentUser:true
     },
     {
         id: 2,
@@ -13,14 +14,16 @@ const participants = [
         avatar:
             'https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1',
         inSession: true,
-        onStage: false
+        onStage: true,
+        currentUser:false
     },
     {
         id: 5,
         name: 'Axe Kubicka',
         avatar: 'https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1',
         inSession: false,
-        onStage: false
+        onStage: false,
+        currentUser:false
     },
     {
         id: 4,
@@ -28,7 +31,8 @@ const participants = [
         avatar:
             'https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1',
         inSession: true,
-        onStage: false
+        onStage: false,
+        currentUser:false
     },
     {
         id: 3,
@@ -36,7 +40,8 @@ const participants = [
         avatar:
             'https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1',
         inSession: true,
-        onStage: true
+        onStage: true,
+        currentUser:false
     }
 ];
 

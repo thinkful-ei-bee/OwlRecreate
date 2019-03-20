@@ -1,7 +1,4 @@
-.user-avatar {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  font-size: 10px;
+.side-bar{
+  width:300px;
+  background:lightgreen;
 }

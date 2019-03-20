@@ -9,13 +9,14 @@ function ParticipantList(props){
   const array3=props.participantsData.filter(participant=>!participant.onStage&&!participant.inSession)
   const participantData = array1.concat(array2).concat(array3)
   return(
-  <div className = 'session-participant'>
+  <div className = 'participants-list'>
     {participantData.map(participant =>
       <Participant key = {participant.id}
           name = {participant.name}
           avatar = {participant.avatar}
           inSession = {participant.inSession}
-          onStage ={participant.onStage}/>)}
+          onStage ={participant.onStage}
+         />)}
   </div>
 )
 }
