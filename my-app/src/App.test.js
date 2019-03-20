@@ -8,8 +8,10 @@ import renderer from 'react-test-renderer';
 import Chat from './Chat';
 import chatEvents from './ChatData'
 import ChatEvent from './ChatEvent'
+import OnStage from './onStage'
+import OnStageContact from './OnStageContact'
 
-it('renders without crashing', () => {
+describe('my-app-test',()=>{it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
@@ -51,3 +53,27 @@ it('participant renders the UI as expected',()=>{
        />).toJSON();
     expect(tree).toMatchSnapshot();
 })
+
+const participantOnStage= participants.filter(participant=>participant.onStage)
+
+//onStage
+it('onStage renders the UI as expected',()=>{
+  const tree = renderer.create(
+    <OnStage participantsData = {participantOnStage}/>
+  ).toJSON();
+  expect(tree).toMatchSnapshot();
+})
+
+// onStage contact
+it('onStageContact renders the UI as expected',()=>{
+  const tree = renderer.create(
+    <OnStageContact
+        avatar = {participants[0].avatar}
+        name = {participants[0].name}
+        key ={participants[0].id}
+        currentUser={participants[0].currentUser}
+        />
+  ).toJSON();
+  expect(tree).toMatchSnapshot();
+})}
+)

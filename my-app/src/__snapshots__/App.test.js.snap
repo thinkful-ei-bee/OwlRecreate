@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`chat renders the UI as expected 1`] = `
+exports[`my-app-test chat renders the UI as expected 1`] = `
 <div>
   <div
     className="chat-event"
@@ -108,7 +108,7 @@ exports[`chat renders the UI as expected 1`] = `
 </div>
 `;
 
-exports[`chatEvent renders the UI as expected 1`] = `
+exports[`my-app-test chatEvent renders the UI as expected 1`] = `
 <div
   className="chat-event"
 >
@@ -122,7 +122,81 @@ exports[`chatEvent renders the UI as expected 1`] = `
 </div>
 `;
 
-exports[`participant renders the UI as expected 1`] = `
+exports[`my-app-test onStage renders the UI as expected 1`] = `
+<div
+  className="contact-on-stage-video-container"
+>
+  <div
+    className="on-stage-contact current-user"
+  >
+    <div
+      className="contact-on-stage-details-current"
+    >
+      Koren Templeton
+      <img
+        alt="Koren Templeton-avatar"
+        className="on-stage-contact-avatar-current"
+        src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+      />
+    </div>
+  </div>
+  <div
+    className="on-stage-contact other-user"
+  >
+    <div
+      className="contact-on-stage-details-other"
+    >
+      Caty Flucker
+    </div>
+    <div
+      className="on-stage-contact-avatar-box"
+    >
+      <img
+        alt="Caty Flucker-avatar"
+        className="on-stage-contact-avatar"
+        src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+      />
+    </div>
+  </div>
+  <div
+    className="on-stage-contact other-user"
+  >
+    <div
+      className="contact-on-stage-details-other"
+    >
+      Ashla Attwool
+    </div>
+    <div
+      className="on-stage-contact-avatar-box"
+    >
+      <img
+        alt="Ashla Attwool-avatar"
+        className="on-stage-contact-avatar"
+        src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`my-app-test onStageContact renders the UI as expected 1`] = `
+<div
+  className="on-stage-contact current-user"
+>
+  <div
+    className="contact-on-stage-details-current"
+  >
+    Koren Templeton
+    <img
+      alt="Koren Templeton-avatar"
+      className="on-stage-contact-avatar-current"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+  </div>
+</div>
+`;
+
+exports[`my-app-test participant renders the UI as expected 1`] = `
 <div
   className="session-participant"
 >
@@ -150,7 +224,7 @@ exports[`participant renders the UI as expected 1`] = `
 </div>
 `;
 
-exports[`participantList renders the UI as expected 1`] = `
+exports[`my-app-test participantList renders the UI as expected 1`] = `
 <div
   className="participants-list"
 >
