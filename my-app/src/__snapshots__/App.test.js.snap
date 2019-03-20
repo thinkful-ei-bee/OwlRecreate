@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders the UI as expected 1`] = `
+exports[`chat renders the UI as expected 1`] = `
 <div>
   <div
     className="chat-event"
@@ -108,7 +108,7 @@ exports[`renders the UI as expected 1`] = `
 </div>
 `;
 
-exports[`renders the UI as expected 2`] = `
+exports[`participantList renders the UI as expected 1`] = `
 <div
   className="participants-list"
 >

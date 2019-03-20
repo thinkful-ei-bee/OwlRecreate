@@ -14,20 +14,16 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-let chat = false;
-/*
-it('renders the UI as expected',()=>{
-  const tree = renderer.create(chat?<Chat participantsData = {participants} chatData={chatEvents}/>:
-    <ParticipantList participantsData = {participants}/>
-  ).toJSON();
+//chat
+it('chat renders the UI as expected',()=>{
+  const tree = renderer.create(<Chat participantsData = {participants} chatData={chatEvents}/>).toJSON();
   expect(tree).toMatchSnapshot();
 });
-*/
-//chat=false;
 
-it('renders the UI as expected',()=>{
-  const tree = renderer.create(chat?<Chat participantsData = {participants} chatData={chatEvents}/>:
-    <ParticipantList participantsData = {participants}/>
+
+//part
+it('participantList renders the UI as expected',()=>{
+  const tree = renderer.create(<ParticipantList participantsData = {participants}/>
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
